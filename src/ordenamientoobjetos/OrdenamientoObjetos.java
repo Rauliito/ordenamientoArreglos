@@ -12,7 +12,7 @@ public class OrdenamientoObjetos {
         arrayEstudiantes[0] = new Estudiante ("nicolas", "ramos","123", 1, 2.0);
         arrayEstudiantes[0] = new Estudiante ("juan", "jaime","123", 6, 3.5);
         
-        
+         
        int temp;
         for(int i=1;i < arrayEstudiantes.length;i++){
             for (int j=0 ; j < arrayEstudiantes.length- 1; j++){
