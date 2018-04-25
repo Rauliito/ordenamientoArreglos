@@ -10,16 +10,14 @@ public final class Estudiante {
     private double nota;
     
     
-    public Estudiante(String nombre, String apellido, String identificacion, int puesto, double nota) {
-        
+    public Estudiante(String nombre, String apellido, String identificacion, int puesto, double nota) {   
         SetNombre(nombre);
         SetApellido(apellido);
         setIdentificacion(identificacion);
         setPuesto(puesto);
         setNota(nota);
     }
-    
-    
+  
     public String imprimir (){
         return "";
     }

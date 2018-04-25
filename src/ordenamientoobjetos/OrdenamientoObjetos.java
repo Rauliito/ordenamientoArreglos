@@ -13,7 +13,15 @@ public class OrdenamientoObjetos {
         arrayEstudiantes[0] = new Estudiante ("juan", "jaime","123", 6, 3.5);
         
         
-        
-        
+       int temp;
+        for(int i=1;i < arrayEstudiantes.length;i++){
+            for (int j=0 ; j < arrayEstudiantes.length- 1; j++){
+                if (arrayEstudiantes[j].getNota () < arrayEstudiantes[j+1].getNota()){
+                    temp = arrayEstudiantes[j].getPuesto();
+                    arrayEstudiantes[j].setPuesto (arrayEstudiantes[j+1].getPuesto());
+                    arrayEstudiantes[j+1].setPuesto(temp);
+                }   
+            }  
+        }
     }
 }
