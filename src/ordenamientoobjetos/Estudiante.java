@@ -1,7 +1,4 @@
 
-import java.util.HashSet;
-import java.util.Set;
-
 package ordenamientoobjetos;
 
 public final class Estudiante {
